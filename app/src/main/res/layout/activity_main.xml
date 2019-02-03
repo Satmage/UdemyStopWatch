@@ -36,18 +36,21 @@
             android:id="@+id/buttonStart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/main_button_start" />
+            android:text="@string/main_button_start"
+            android:onClick="onMainClickStartTimer"/>
 
         <Button
             android:id="@+id/buttonPause"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/main_button_pause" />
+            android:text="@string/main_button_pause"
+            android:onClick="onMainClickStopTimer"/>
 
         <Button
             android:id="@+id/buttonReset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/main_button_reset" />
+            android:text="@string/main_button_reset"
+            android:onClick="onMainClickResetTimer"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

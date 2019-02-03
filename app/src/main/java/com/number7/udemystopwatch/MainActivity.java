@@ -2,6 +2,7 @@ package com.number7.udemystopwatch;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,5 +10,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void onMainClickStartTimer(View view) {
+    }
+
+    public void onMainClickStopTimer(View view) {
+    }
+
+    public void onMainClickResetTimer(View view) {
     }
 }
