@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Udemy Stop Watch</string>
+    
+    <string name="main_init_time">0:00:00</string>
+    <string name="main_button_start">start</string>
+    <string name="main_button_pause">pause</string>
+    <string name="main_button_reset">reset</string>
+</resources>
